@@ -10,11 +10,11 @@ namespace TrueOrFalse
     {
         static void Main(string[] args)
         {
-            // Do not edit these lines
+           
             Console.WriteLine("Welcome to 'True or False?'\nPress Enter to begin:");
             string entry = Console.ReadLine();
 
-            // Type your code below
+       
             string[] questions = { "Bla bla", "bli bli" };
             bool[] answers = { true, false };
             bool[] responses = new bool[2];
