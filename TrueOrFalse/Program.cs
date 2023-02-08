@@ -46,6 +46,19 @@ namespace TrueOrFalse
                 Console.WriteLine(ans);
             }
 
+            int scoringIndex = 0;
+            int score = 0;
+            foreach (bool ans in answers)
+            {
+                bool resp = responses[scoringIndex];
+                Console.WriteLine($"1. Input: {resp} | Answer: {ans}");
+                if (resp == ans)
+                {
+                    score++;
+                }
+                scoringIndex++;
+            }
+            Console.WriteLine($"You got {score} out of 2 correct!");
             Console.ReadLine();
 
         }
