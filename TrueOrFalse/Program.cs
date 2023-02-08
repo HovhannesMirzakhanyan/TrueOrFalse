@@ -58,8 +58,8 @@ namespace TrueOrFalse
                 }
                 scoringIndex++;
             }
-            Console.WriteLine($"You got {score} out of 2 correct!");
-            Console.ReadLine();
+            Console.WriteLine($"You got {score} out of {questions.Length} correct!");
+           
 
         }
     }
